@@ -328,9 +328,7 @@ export default {
       }
 
       btnVar.disabled = false;
-      btnProjLine.disabled = true;
-      btnProject.disabled = true;
-
+     
       renderFrame();
     }
 
@@ -365,7 +363,7 @@ export default {
         onUpdate: renderFrame
       });
 
-      btnVar.disabled = true;
+    
       btnProjLine.disabled = false;
     }
 
@@ -375,7 +373,7 @@ export default {
         onUpdate: renderFrame
       });
 
-      btnProjLine.disabled = true;
+    
       btnProject.disabled = false;
     }
 
@@ -395,7 +393,7 @@ export default {
         ease: "power2.inOut"
       });
 
-      btnProject.disabled = true;
+    
     }
 
     // =========================
